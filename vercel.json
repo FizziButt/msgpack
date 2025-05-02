@@ -1,6 +1,6 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/msgpack", "dest": "/api/msgpack.js" }
+    { "src": "/api", "dest": "/api/index.js" }
   ]
 }
