@@ -13,6 +13,9 @@ app.get('/msgpack', (req, res) => {
   res.send(buffer);
 });
 
+app.get('/', (req, res) => {
+res.send("hello")
+})
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
